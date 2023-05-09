@@ -299,11 +299,11 @@ Using the grade function below do the following:
 function grade(number){
 if(number > 89){
   return `you got an A`;
-}else if(number < 90 && >= 80){
+}else if(number < 90 && number >= 80){
   return `you got a B`;
-}else if(number < 80 && >= 70){
+}else if(number < 80 && number >= 70){
   return `you got a C`;
-}else if(number < 70 && >= 60){
+}else if(number < 70 && number >= 60){
   return `you got a D`;
 }else if(number < 60){
   return `you got an F`;
